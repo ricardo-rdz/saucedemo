@@ -28,4 +28,8 @@ public class CheckOutPage extends BasePage{
     }
 
 
+    public void prueba(){
+        
+    }
+
 }
