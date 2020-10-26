@@ -18,11 +18,13 @@ public class ShoppingCarPageFlow extends BaseTest{
         lp = new LoginPage(driver);
         pp = new ProductPage(driver);
         sc = new ShoppingCarPage(driver);
+        cp = new CheckOutPage(driver);
 
 
         lp.loggin(user,psw);
         pp.selectOneProduct();
         pp.clickShoppingCar();
+        sc.clickCheckoutBtn();
 
 
 

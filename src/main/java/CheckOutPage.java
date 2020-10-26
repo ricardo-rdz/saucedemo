@@ -5,12 +5,12 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CheckOutPage extends BasePage{
 
-   @FindBy(css=".subheader")
+   @FindBy(css="div.subheader")
            WebElement getYIPageTitle;
    @FindBy(css="#first-name")
-           WebElement getFirstNInput;
+           WebElement getFirstNameInput;
     @FindBy(css="#last-name")
-            WebElement getSecondInput;
+            WebElement getSecondNameInput;
     @FindBy(css="#postal-code")
             WebElement getZipCInput;
     @FindBy(xpath = "//*[@value = 'CONTINUE']")
@@ -27,7 +27,20 @@ public class CheckOutPage extends BasePage{
         return getYIPageTitle;
     }
 
+    public void fillInfo(){
+        if (getYIPageTitle.isDisplayed()){
+            getFirstNameInput.sendKeys("first");
+            getSecondNameInput.sendKeys("second");
+            getZipCInput.sendKeys("45060");
+            }
+    }
 
-    
+    public void clickContinue(){
+        getContinueBtn.click();
+    }
+
+    public WebElement erroMessage(){
+        return getErrorBtn;
+    }
 
 }

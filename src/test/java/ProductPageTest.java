@@ -34,8 +34,7 @@ public class ProductPageTest extends ProductPageFlow {
         pp.clickShoppingCar();
         List<WebElement> product = sc.getlistofProducts();
         for (WebElement prod: product) {
-           // System.out.println(prod.getText());
-           Assert.assertEquals(prod.getText(),prod.getText());
+            Assert.assertEquals(prod.getText(),prod.getText());
             System.out.println("6th validation: "+prod.getText()+" has been added to the shoping car");
         }
     }
