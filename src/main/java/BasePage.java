@@ -16,6 +16,7 @@ public class BasePage {
     public ProductPage pp;
     public ShoppingCarPage sc;
     public CheckOutPage cp;
+    public OverviewPage op;
 
 
 }

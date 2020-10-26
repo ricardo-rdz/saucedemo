@@ -19,6 +19,7 @@ public class CheckOutPageFlow extends BaseTest{
         pp = new ProductPage(driver);
         sc = new ShoppingCarPage(driver);
         cp = new CheckOutPage(driver);
+        op = new OverviewPage(driver);
 
 
         lp.loggin(user,psw);

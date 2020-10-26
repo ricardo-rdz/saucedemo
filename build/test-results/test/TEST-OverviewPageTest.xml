@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OverviewPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-26T23:21:32" hostname="LAPTOP-C9MSPJV0" time="0.089">
+  <properties/>
+  <testcase name="finalOrderValidation" classname="OverviewPageTest" time="0.089"/>
+  <system-out><![CDATA[9th Validation: User Navigates: Checkout: Overview Page and ValidatesSauce Labs Fleece Jacket Product matches Product added
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 6040
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1603754485.793][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+oct 26, 2020 5:21:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
