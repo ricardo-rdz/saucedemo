@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginPageTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-27T03:11:43" hostname="LAPTOP-C9MSPJV0" time="14.699">
+<testsuite name="LoginPageTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-27T03:16:42" hostname="LAPTOP-C9MSPJV0" time="14.061">
   <properties/>
-  <testcase name="ValidUserValidation[0](standard_user, secret_sauce)" classname="LoginPageTests" time="0.841"/>
-  <testcase name="InvalidUserValidation[0](wrong_user, secret_sauce)" classname="LoginPageTests" time="0.219"/>
-  <testcase name="logoutValidation[0](standard_user, secret_sauce)" classname="LoginPageTests" time="1.234"/>
+  <testcase name="ValidUserValidation[0](standard_user, secret_sauce)" classname="LoginPageTests" time="0.683"/>
+  <testcase name="InvalidUserValidation[0](wrong_user, secret_sauce)" classname="LoginPageTests" time="0.232"/>
+  <testcase name="logoutValidation[0](standard_user, secret_sauce)" classname="LoginPageTests" time="0.896"/>
   <system-out><![CDATA[1st validation: The User navigates to Products Page
 2nd validation: The User navigates with wrong userName 
 3er Validation: Validate the user navigates to the login page
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 32976
+  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 5349
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1603768298.486][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
-oct 26, 2020 9:11:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1603768597.489][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+oct 26, 2020 9:16:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 25900
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15901
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1603768305.757][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
-oct 26, 2020 9:11:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1603768604.615][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+oct 26, 2020 9:16:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 11390
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 17992
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1603768312.346][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
-oct 26, 2020 9:11:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1603768611.013][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+oct 26, 2020 9:16:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
