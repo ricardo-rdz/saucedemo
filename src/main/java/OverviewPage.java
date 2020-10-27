@@ -9,7 +9,7 @@ public class OverviewPage extends BasePage{
            WebElement getOVPageTitle;
     @FindBy(css =".inventory_item_name")
            WebElement getItemAdded;
-    @FindBy(css= ".btn_action.cart_button")
+    @FindBy(css= "a.btn_action.cart_button")
             WebElement getFinishBtn;
 
     public OverviewPage(WebDriver driver){
@@ -24,6 +24,9 @@ public class OverviewPage extends BasePage{
         return getItemAdded;
     }
 
+    public void clickFinishButton(){
+        getFinishBtn.click();
+    }
 
 
 }

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="OverviewPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-27T01:43:35" hostname="LAPTOP-C9MSPJV0" time="0.156">
+<testsuite name="OverviewPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-27T02:11:44" hostname="LAPTOP-C9MSPJV0" time="0.248">
   <properties/>
-  <testcase name="finalOrderValidation" classname="OverviewPageTest" time="0.156"/>
-  <system-out><![CDATA[9th Validation: User Navigates: Checkout: Overview Page and ValidatesSauce Labs Fleece Jacket Product matches Product added
+  <testcase name="completePurchaseValidation" classname="OverviewPageTest" time="0.248"/>
+  <system-out><![CDATA[10th Validation: User navigates to Finish Page
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 22589
+  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 5692
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1603763007.803][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
-oct 26, 2020 7:43:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1603764697.349][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+oct 26, 2020 8:11:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

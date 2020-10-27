@@ -19,6 +19,7 @@ public class OverviewPageFlow extends BaseTest{
         sc = new ShoppingCarPage(driver);
         cp = new CheckOutPage(driver);
         op = new OverviewPage(driver);
+        fp = new FinishPage(driver);
 
 
         lp.loggin(user,psw);
