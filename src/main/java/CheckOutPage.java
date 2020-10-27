@@ -27,11 +27,11 @@ public class CheckOutPage extends BasePage{
         return getYIPageTitle;
     }
 
-    public void fillInfo(){
+    public void fillInfo(String firstName, String secondName, String ZIP){
         if (getYIPageTitle.isDisplayed()){
-            getFirstNameInput.sendKeys("first");
-            getSecondNameInput.sendKeys("second");
-            getZipCInput.sendKeys("45060");
+            getFirstNameInput.sendKeys(firstName);
+            getSecondNameInput.sendKeys(secondName);
+            getZipCInput.sendKeys(ZIP);
             }
     }
 

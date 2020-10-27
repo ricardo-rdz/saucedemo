@@ -16,9 +16,9 @@ public class CheckOutPageTest extends CheckOutPageFlow {
         System.out.println("7th validation: Validate error message is displayed on the user’s information page.");
     }
 
-    @Test(dependsOnMethods = "errorMessageValidation")
-    public void fillUserInfoValidation(){
-        cp.fillInfo();
+    @Test(dependsOnMethods = "errorMessageValidation",dataProvider = "userInfo",dataProviderClass = DataProviderClass.class)
+    public void fillUserInfoValidation(String firstName, String secondName, String ZIP){
+        cp.fillInfo(firstName,secondName, ZIP);
         cp.clickContinue();
         String overviewTittle = op.getTittle().getText();
         Assert.assertEquals(overviewTittle, "Checkout: Overview");

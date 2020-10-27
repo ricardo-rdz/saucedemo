@@ -5,6 +5,11 @@ import java.io.IOException;
 public class OverviewPageFlow extends BaseTest{
     String user = prop.getProperty("user");
     String psw =  prop.getProperty("pass");
+    String firstN = prop.getProperty("firstName");
+    String secondN = prop.getProperty("secondName");
+    String zip = prop.getProperty("Zip");
+
+
 
     public OverviewPageFlow() throws IOException {
     }
@@ -26,7 +31,7 @@ public class OverviewPageFlow extends BaseTest{
         pp.selectOneProduct();
         pp.clickShoppingCar();
         sc.clickCheckoutBtn();
-        cp.fillInfo();
+        cp.fillInfo(firstN,secondN,zip);
         cp.clickContinue();
 
     }

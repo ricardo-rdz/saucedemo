@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CheckOutPageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-27T02:27:39" hostname="LAPTOP-C9MSPJV0" time="8.502">
+<testsuite name="CheckOutPageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-27T03:12:28" hostname="LAPTOP-C9MSPJV0" time="8.31">
   <properties/>
-  <testcase name="errorMessageValidation" classname="CheckOutPageTest" time="0.084"/>
-  <testcase name="fillUserInfoValidation" classname="CheckOutPageTest" time="0.345"/>
+  <testcase name="errorMessageValidation" classname="CheckOutPageTest" time="0.071"/>
+  <testcase name="fillUserInfoValidation[0](first, second, 45060)" classname="CheckOutPageTest" time="0.325"/>
   <system-out><![CDATA[7th validation: Validate error message is displayed on the userâ€™s information page.
 8th Validation: The user navigates to Checkout: Overview Page
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 22745
+  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 22503
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1603765654.103][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
-oct 26, 2020 8:27:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1603768341.500][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+oct 26, 2020 9:12:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 38596
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 35436
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1603765662.166][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
-oct 26, 2020 8:27:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1603768350.842][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+oct 26, 2020 9:12:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

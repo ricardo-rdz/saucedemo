@@ -22,11 +22,19 @@ public class DataProviderClass {
 		data[0][0] = "wrong_user";
 		data[0][1] = "secret_sauce";
 
-		return data; 
-		
-				
+		return data;
 	}
-	
+
+	@DataProvider(name="userInfo")
+	public static Object[][] getUserInfo(){
+
+		Object[][] data = new Object[1][3];
+		data[0][0] = "first";
+		data[0][1] = "second";
+		data[0][2] = "45060";
+
+		return data;
+	}
 	
 	
 }
