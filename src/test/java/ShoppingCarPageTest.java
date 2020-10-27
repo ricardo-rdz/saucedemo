@@ -10,13 +10,13 @@ public class ShoppingCarPageTest extends ShoppingCarPageFlow{
     }
 
 
-    @Test
+    /*@Test
     public void validateErrorMessage(){
         sc.clickCheckoutBtn();
         /*String checkOutTittle = cp.getTittlePage().getText();
         System.out.println(checkOutTittle);
-        Assert.assertEquals(checkOutTittle, "Checkout: Your Information");*/
-      }
+        Assert.assertEquals(checkOutTittle, "Checkout: Your Information");
+      }*/
 
 
 }

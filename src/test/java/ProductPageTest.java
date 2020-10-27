@@ -19,7 +19,7 @@ public class ProductPageTest extends ProductPageFlow {
         System.out.println("4th validation: The User navigates to " + scTittle+ " Page");
     }
 
-    @Test(/*dependsOnMethods = {"navigateShoppingCarValidation"}*/)
+    @Test(dependsOnMethods = {"navigateShoppingCarValidation"})
     public void singleProductValidation(){
         pp.selectOneProduct();
         pp.clickShoppingCar();

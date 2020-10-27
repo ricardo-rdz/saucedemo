@@ -9,14 +9,14 @@ public class CheckOutPageTest extends CheckOutPageFlow {
     }
 
 
-    @Test
+    @Test(priority = 2)
     public void errorMessageValidation(){
         cp.clickContinue();
         Assert.assertTrue(cp.erroMessage().isDisplayed());
         System.out.println("7th validation: Validate error message is displayed on the user’s information page.");
     }
 
-    @Test
+    @Test(dependsOnMethods = "errorMessageValidation")
     public void fillUserInfoValidation(){
         cp.fillInfo();
         cp.clickContinue();

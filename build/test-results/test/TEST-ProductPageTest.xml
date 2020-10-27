@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProductPageTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-27T02:27:16" hostname="LAPTOP-C9MSPJV0" time="15.625">
+  <properties/>
+  <testcase name="navigateShoppingCarValidation" classname="ProductPageTest" time="0.246"/>
+  <testcase name="singleProductValidation" classname="ProductPageTest" time="0.311"/>
+  <testcase name="multipleProductsValidation" classname="ProductPageTest" time="0.413"/>
+  <system-out><![CDATA[4th validation: The User navigates to Your Cart Page
+5th validation: Sauce Labs Fleece Jacket has been added to the shoping car
+6th validation: Sauce Labs Backpack has been added to the shoping car
+6th validation: Test.allTheThings() T-Shirt (Red) has been added to the shoping car
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 39607
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1603765630.787][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+oct 26, 2020 8:27:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 37056
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1603765639.264][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+oct 26, 2020 8:27:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 7980
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1603765646.583][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+oct 26, 2020 8:27:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
