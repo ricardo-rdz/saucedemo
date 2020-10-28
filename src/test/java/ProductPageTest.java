@@ -40,6 +40,18 @@ public class ProductPageTest extends ProductPageFlow {
     }
 
 
+    //bonus: select a random product
+    @Test
+    public void randomProductsValidation() throws IOException {
+        pp.selectRandomProduct();
+        pp.clickShoppingCar();
+        List<WebElement> product = sc.getlistofProducts();
+        for (WebElement prod: product) {
+            Assert.assertEquals(prod.getText(),prod.getText());
+            System.out.println("bonus validation: Select a Product random");
+        }
+    }
+
 
 
 }

@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Arrays;
 
@@ -76,7 +77,31 @@ public class ProductPage extends BasePage {
                     if(j==1){
                         break;
                     }
-            }
+                }
+        }
+    }
+    public void selectRandomProduct() throws IOException {
+        prop = new Properties();
+        FileInputStream fil = new FileInputStream("./src/test/resources/properties/products.properties");
+        prop.load(fil);
+        List<WebElement> productsList = getListofProducts;
+
+        int rand = (int) (Math.random()*6+1);
+
+        int j=0;
+
+        for (int i = 0; i<productsList.size(); i++) {
+            String nameProducts = productsList.get(i).getText();
+            String[] productsSelected = {prop.getProperty("prod"+rand)};
+            List itemsAdded = Arrays.asList(productsSelected);
+
+              if(itemsAdded.contains(nameProducts)) {
+                getAddCarBtn.get(i).click();
+                j++;
+                if(j==1){
+                    break;
+                }
+              }
         }
     }
 
@@ -90,13 +115,12 @@ public class ProductPage extends BasePage {
 
         for (int i = 0; i<productsList.size(); i++) {
             String nameProducts = productsList.get(i).getText();
-            String[] productsSelected = {prop.getProperty("prod1"), prop.getProperty("prod3")/*, prop.getProperty("prod6")*/};
+            String[] productsSelected = {prop.getProperty("prod1"), prop.getProperty("prod3")};
             List itemsAdded = Arrays.asList(productsSelected);
 
-            //System.out.println(nameProducts);
+
             if(itemsAdded.contains(nameProducts)) {
                 getAddCarBtn.get(i).click();
-                //System.out.println(itemsAdded);
                 j++;
                 if(j==2){
                     break;
