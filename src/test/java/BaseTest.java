@@ -65,8 +65,8 @@ public class BaseTest extends BasePage{
 
 
 
-    /*@AfterMethod
+    @AfterMethod
     public void closeWindow(){
         driver.close();
-    }*/
+    }
 }
