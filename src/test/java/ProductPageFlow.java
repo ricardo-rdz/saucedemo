@@ -1,3 +1,6 @@
+import PageClases.LoginPage;
+import PageClases.ProductPage;
+import PageClases.ShoppingCarPage;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;

@@ -1,6 +1,3 @@
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import java.io.IOException;
 
 public class ShoppingCarPageTest extends ShoppingCarPageFlow{

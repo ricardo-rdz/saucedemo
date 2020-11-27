@@ -1,3 +1,4 @@
+import PageClases.*;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;

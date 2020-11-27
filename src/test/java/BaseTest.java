@@ -1,3 +1,4 @@
+import PageClases.BasePage;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +13,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class BaseTest extends BasePage{
+public class BaseTest extends BasePage {
 
 
     public BaseTest() throws IOException {
