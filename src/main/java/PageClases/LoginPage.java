@@ -10,7 +10,7 @@ public class LoginPage extends BasePage {
 
 
 	//PageClases.LoginPage Locators
-	@FindBy(css="img.bot_column")
+	@FindBy(css=".bot_column")
 	WebElement botImage;
 	//By getLgPageTitle = By.cssSelector(".login_logo");
 	//WebElement tittlePage = driver.findElement(getLgPageTitle);
